@@ -14,3 +14,53 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-title);
+}
+h2 {
+  font-size: 38px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+p, button {
+  font-family: 'Raleway', sans-serif;
+}
+.max-width {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+:root {
+
+  --font-copy: 'Raleway', sans-serif;
+  --font-title: 'Inria Serif', serif;
+  --font-base: 16px;
+  --font-base-height: 25px;
+
+  --h1-size: 40px;
+  --h1-size-mobile: 36px;
+  --h2-size: 30px;
+  --h3-size: 25px;
+  --h4-size: 20px;
+
+  --brown-100: #f8f2ee;
+  --brown-200: #E2C9B8;
+  --brown-300: #b27a61;
+  --brown-400: #736568;
+  --brown-600: #2b2929;
+
+  --pink-200: #EFD0D2;
+
+  --yellow-100: #FBEBC2;
+  --yellow-300: #F6D37A;
+
+  --gray-100: #E5E5E5;
+  --gray-200  :#CCCCCC;
+  --gray-300: #B2B2B2;
+  --gray-400: #7F7F7F;
+
+}
